@@ -2,7 +2,7 @@ const { Client, Intents, MessageEmbed } = require('discord.js');
 const fs = require('fs');
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
-const TOKEN = 'MTExNDM2MjQwNzgyMTc4NzE3Ng.GNOLfn.GjLuxN4KVyYnrKgvTWrS0Y0PJx4wqBIuRoJgIk';
+const TOKEN = '';
 
 // Map to store user accounts
 const userAccounts = new Map();
